@@ -81,7 +81,7 @@ button {
 }
 
 .logo-mark {
-  height: 32px;
+  height: 40px;
   width: auto;
   border-radius: 0.5rem;
   object-fit: contain;
@@ -156,9 +156,9 @@ button {
 }
 
 .hero-logo {
-  height: 110px;
+  height: 150px;
   width: auto;
-  margin: 0 auto 2.25rem auto;
+  margin: 0 auto 2.5rem auto;
   display: block;
   filter: drop-shadow(0 0 32px rgba(59, 130, 246, 0.75));
 }
