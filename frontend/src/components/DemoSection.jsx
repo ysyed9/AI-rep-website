@@ -5,7 +5,9 @@ const DemoSection = () => {
         <section id="demo" className="demo-section">
             <div className="container demo-content">
                 <div className="demo-text">
-                    <h2 className="section-title">Hear <span className="gradient-text">AI-Rep</span> in Action</h2>
+                    <h2 className="section-title">
+                        Hear <span className="gradient-text">Flowrep</span> in Action
+                    </h2>
                     <p className="demo-description">
                         Experience the future of customer service. Call our demo number to chat with our AI receptionist right now.
                     </p>

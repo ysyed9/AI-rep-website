@@ -72,9 +72,24 @@ button {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.05em;
+}
+
+.logo-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+}
+
+.logo-text {
+  display: inline-block;
 }
 
 .nav-links {

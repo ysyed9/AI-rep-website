@@ -5,7 +5,12 @@ const Navbar = () => {
         <nav className="navbar glass-panel">
             <div className="container navbar-content">
                 <div className="logo">
-                    <span className="gradient-text">AI-Rep</span>
+                    <img
+                        src="/flowrep-logo.png"
+                        alt="Flowrep logo"
+                        className="logo-mark"
+                    />
+                    <span className="logo-text gradient-text">Flowrep</span>
                 </div>
                 <div className="nav-links">
                     <a href="#features">Features</a>
