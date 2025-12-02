@@ -5,6 +5,10 @@ import Features from './components/Features';
 import DemoSection from './components/DemoSection';
 import Footer from './components/Footer';
 
+import Pricing from './components/Pricing';
+import UseCases from './components/UseCases';
+import Contact from './components/Contact';
+
 function App() {
   return (
     <div className="app">
@@ -12,6 +16,9 @@ function App() {
       <Hero />
       <DemoSection />
       <Features />
+      <UseCases />
+      <Pricing />
+      <Contact />
       <Footer />
     </div>
   );

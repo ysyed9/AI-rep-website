@@ -5,17 +5,15 @@ const Navbar = () => {
         <nav className="navbar glass-panel">
             <div className="container navbar-content">
                 <div className="logo">
-                    <img
-                        src="/flowrep-logo.png"
-                        alt="Flowrep logo"
-                        className="logo-mark"
-                    />
-                    <span className="logo-text gradient-text">Flowrep</span>
+                    {/* Logo removed */}
                 </div>
                 <div className="nav-links">
+                    <a href="#home">Home</a>
                     <a href="#features">Features</a>
-                    <a href="#about">About</a>
-                    <a href="#contact" className="btn-primary">Get Started</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#use-cases">Use Cases</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
