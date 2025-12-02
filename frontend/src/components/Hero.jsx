@@ -4,6 +4,11 @@ const Hero = () => {
     return (
         <section className="hero">
             <div className="container hero-content">
+                <img
+                    src="/flowrep-logo.png"
+                    alt="Flowrep logo"
+                    className="hero-logo"
+                />
                 <h1 className="hero-title">
                     The Future of <br />
                     <span className="gradient-text">Front Desk Automation</span>
