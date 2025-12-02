@@ -20,10 +20,15 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <form className="contact-form">
-                        <input type="text" placeholder="Name" className="form-input" />
-                        <input type="email" placeholder="Email" className="form-input" />
-                        <textarea placeholder="Message" className="form-input" rows="4"></textarea>
+                    <form action="https://formsubmit.co/syed@relfow.com" method="POST" className="contact-form">
+                        {/* FormSubmit Configuration */}
+                        <input type="hidden" name="_subject" value="New Contact Form Submission" />
+                        <input type="hidden" name="_captcha" value="false" />
+
+                        <input type="text" name="name" placeholder="Name" className="form-input" required />
+                        <input type="email" name="email" placeholder="Email" className="form-input" required />
+                        <textarea name="message" placeholder="Message" className="form-input" rows="4" required></textarea>
+
                         <button type="submit" className="btn-primary">Send Message</button>
                     </form>
                 </div>
